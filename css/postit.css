@@ -1,0 +1,117 @@
+body{
+    width:90%;
+    /*height: 900px;*/
+}
+.lavagna{
+    margin-top: 200px;
+    height: 600px;
+    display:flex;
+    flex-wrap:wrap;
+    
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(72, 72, 72);
+    
+}
+.lavagna div{
+    font-family: 'Indie Flower', cursive;
+    
+    box-sizing: border-box;
+    margin:10px;
+    font-size:1.5rem;
+    width:20%;
+    height:250px;
+    text-align: center;
+    padding-top:80px;
+    border:1px solid white;
+}
+
+.lavagna div h1{
+    font-size:2rem;
+    margin:10px;
+
+}
+
+@keyframes postit{
+    from{transform:rotate(5deg);}
+    to{transform: scale(1.5);}
+}
+.post1{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(249,238,62,1) 98%);
+}
+.post1:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+}
+.post2{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(148,207,139,1) 98%);
+    
+}
+.post2:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+.post3{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(211,147,208,1) 98%);
+}    
+.post3:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+.post4{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(249,238,62,1) 98%);
+}
+.post4:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+
+.post5{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(211,147,208,1) 98%);
+}
+.post5:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+
+.post6{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(148,207,139,1) 98%);
+
+}
+.post6:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+
+.post7{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(211,147,208,1) 98%);
+   
+}
+.post7:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
+
+.post8{
+    background: rgb(123,122,147);
+    background: linear-gradient(0deg, rgba(123,122,147,1) 0%, rgba(249,238,62,1) 98%);
+   
+}
+.post8:hover{
+    animation-name:postit;
+    animation-duration: 1s;    
+
+}
